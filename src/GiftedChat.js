@@ -368,6 +368,12 @@ class GiftedChat extends React.Component {
     });
   }
 
+  setInputText (newText) {
+    this.setState({
+      text: newText
+    });
+  }
+
   renderInputToolbar() {
     const inputToolbarProps = {
       ...this.props,
